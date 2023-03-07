@@ -9,4 +9,10 @@ public class Address {
     private String city;
     private String Street;
     private String ZipCode;
+
+    public Address(String city, String street, String zipCode) {
+        this.city = city;
+        this.Street = street;
+        this.ZipCode = zipCode;
+    }
 }
