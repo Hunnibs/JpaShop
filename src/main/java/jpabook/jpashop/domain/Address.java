@@ -10,6 +10,10 @@ public class Address {
     private String Street;
     private String ZipCode;
 
+    protected Address(){
+
+    }
+
     public Address(String city, String street, String zipCode) {
         this.city = city;
         this.Street = street;
