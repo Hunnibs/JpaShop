@@ -34,11 +34,11 @@ public class MemberService {
     /**
      * 전체 회원 조회
      */
-    private List<Member> findMembers(){
+    public List<Member> findMembers(){
         return memberRepository.findAll();
     }
 
-    private Member findOne(Long memberId){
+    public Member findOne(Long memberId){
         return memberRepository.findOne(memberId);
     }
 }
